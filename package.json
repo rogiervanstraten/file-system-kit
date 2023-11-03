@@ -2,11 +2,7 @@
 	"name": "file-system-kit",
 	"version": "0.0.1",
 	"description": "A file system kit for creating a temporary file or directory",
-	"main": "build/index.js",
-	"types": "build/index.d.ts",
-	"files": [
-		"build"
-	],
+	"main": "src/index.ts",
 	"scripts": {
 		"build": "rimraf build && tsc -p tsconfig.build.json",
 		"test": "jest --passWithNoTests",
